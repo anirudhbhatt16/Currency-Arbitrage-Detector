@@ -1,0 +1,42 @@
+{
+  "currencies": ["USD", "EUR", "GBP", "JPY", "CHF", "INR"],
+  "rates": [
+    {"from": "CHF", "to": "EUR", "rate": 1.060000},
+    {"from": "CHF", "to": "GBP", "rate": 0.900000},
+    {"from": "CHF", "to": "INR", "rate": 95.000000},
+    {"from": "CHF", "to": "JPY", "rate": 171.200000},
+    {"from": "CHF", "to": "USD", "rate": 1.150000},
+    {"from": "EUR", "to": "CHF", "rate": 0.950000},
+    {"from": "EUR", "to": "GBP", "rate": 0.860000},
+    {"from": "EUR", "to": "INR", "rate": 89.000000},
+    {"from": "EUR", "to": "JPY", "rate": 162.500000},
+    {"from": "EUR", "to": "USD", "rate": 1.100000},
+    {"from": "GBP", "to": "CHF", "rate": 1.130000},
+    {"from": "GBP", "to": "EUR", "rate": 1.180000},
+    {"from": "GBP", "to": "INR", "rate": 107.000000},
+    {"from": "GBP", "to": "JPY", "rate": 193.000000},
+    {"from": "GBP", "to": "USD", "rate": 1.275000},
+    {"from": "INR", "to": "CHF", "rate": 0.010700},
+    {"from": "INR", "to": "EUR", "rate": 0.011500},
+    {"from": "INR", "to": "GBP", "rate": 0.009500},
+    {"from": "INR", "to": "JPY", "rate": 1.820000},
+    {"from": "INR", "to": "USD", "rate": 0.012100},
+    {"from": "JPY", "to": "CHF", "rate": 0.005800},
+    {"from": "JPY", "to": "EUR", "rate": 0.006300},
+    {"from": "JPY", "to": "GBP", "rate": 0.005300},
+    {"from": "JPY", "to": "INR", "rate": 0.560000},
+    {"from": "JPY", "to": "USD", "rate": 0.006800},
+    {"from": "USD", "to": "CHF", "rate": 0.890000},
+    {"from": "USD", "to": "EUR", "rate": 0.940000},
+    {"from": "USD", "to": "GBP", "rate": 0.800000},
+    {"from": "USD", "to": "INR", "rate": 84.000000},
+    {"from": "USD", "to": "JPY", "rate": 3.000000}
+  ],
+  "opportunities": [
+    {"path": ["INR", "JPY", "INR", "GBP"], "profit": -0.990318},
+    {"path": ["INR", "JPY", "INR", "CHF"], "profit": -0.989095},
+    {"path": ["INR", "JPY", "INR"], "profit": 0.019200},
+    {"path": ["JPY", "INR", "JPY", "USD"], "profit": -0.993069},
+    {"path": ["JPY", "INR", "JPY"], "profit": 0.019200}
+  ]
+}
