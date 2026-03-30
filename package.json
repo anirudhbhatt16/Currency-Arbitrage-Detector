@@ -1,0 +1,36 @@
+{
+  "name": "currency-arbitrage-detector",
+  "version": "1.0.0",
+  "description": "Node runner for the browser UI using jsdom",
+  "main": "app_node.js",
+  "scripts": {
+    "start": "node app_node.js"
+  },
+  "dependencies": {
+    "jsdom": "^22.0.0"
+  }
+}
+{
+  "name": "currency-arbitrage-detector",
+  "version": "1.0.0",
+  "description": "The Currency Arbitrage System is a server-side application written in C++ that supports 6 currencies and helps users identify potential arbitrage opportunities. The purpose of this system is to provide users with a tool to easily track and take advantage of differences in exchange rates between currencies.",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohitxy0092/Currency-Arbitrage-Detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mohitxy0092/Currency-Arbitrage-Detector/issues"
+  },
+  "homepage": "https://github.com/Mohitxy0092/Currency-Arbitrage-Detector#readme",
+  "dependencies": {
+    "jsdom": "^28.0.0"
+  }
+}
